@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+}
+
+div {
+  border: 1px solid #000;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#green > div, #blue > div, #purple > div {
+  color: #fff;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#red > div {
+  background: red;
+}
+
+#orange > div {
+  background: orange;
+}
+
+#yellow > div {
+  background: yellow;
+}
+
+#green > div {
+  align-items: center;
+  background: green;
+  display: flex;
+  justify-content: center;
+}
+
+#blue > div {
+  background: blue;
+}
+
+#purple > div {
+  align-items: center;
+  background: purple;
+  display: flex;
+  justify-content: center;
+}
