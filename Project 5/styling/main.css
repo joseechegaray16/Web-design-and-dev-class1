@@ -1,0 +1,22 @@
+table {
+    background-color: rgb(189, 184, 204);
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    border: 2px;
+    border-collapse: collapse;
+    border-width: 10px; 
+    border-style: inset;
+    border-spacing: 4px;
+    padding: 5px;
+    width: 80%;
+    height: 60%;
+}
+
+table th {
+    background-color: rgb(109, 212, 202);
+    color: white;
+}
+
+tbody {
+    vertical-align: bottom;
+}
